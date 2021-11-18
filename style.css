@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Rubik:wght@300;400;500;600;700&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html{
+    font-family: 'Rubik', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+.ordersumary{
+    max-width: 100%;
+    background: url(img/pattern-background-desktop.svg);
+    background-color: #E0E8FF;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+
+.servic-box {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    padding: 6rem 0;
+    /* height: 80vh; */
+    
+    
+}
+.box{
+    background: #fff;
+    border-radius: 1rem;
+    
+    overflow: hidden;
+}
+.content{
+    background-color: #fff;
+    padding: 1rem 0;
+
+}
+.content h2{
+    color: (270, 20%, 96%);
+
+}
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding: 1rem 0;
+    color: rgb(151, 142, 142);
+
+}
+.btn{
+    padding: 1rem 0;
+    background-color: #fff;
+    display: block;
+}
+.left-content {
+    display: flex;
+    margin: 0.9rem 1rem;
+    padding: 1rem 1rem;
+    border-radius: 0.8rem;
+    align-items: center;
+    gap: 1rem;
+    background-color: #F8F9FE;
+}
+.icon-content h3{
+    padding-top: 12px;
+}
+.icon-content p{
+    padding: 0;
+    text-align: left;
+}
+.left-content a{
+    text-align: right;
+    color: #1F1FCF;
+    font-size: 16px;
+    font-weight: 500;
+    flex: 1;
+}
+.btn-div{
+    padding: 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 1rem;
+    border-radius: 0.3rem;
+    background-color: #1F1FCF;
+    cursor: pointer;
+    display: block;
+    
+}
+.btn {
+    text-align: center;
+    padding-top: 0;
+}
+.btn h3{
+    padding : 1.8rem;
+    font-weight: 500;
+    color: #b6bed4;
+    cursor: pointer;
+}
